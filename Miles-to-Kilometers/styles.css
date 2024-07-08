@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e5e0f0;
+    color: #3e2f63;
+  }
+  
+  .converter {
+    text-align: center;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+  }
+  
+  input[type="number"], button {
+    margin-top: 8px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #1f1731;
+    color: #fff;
+  }
+
+  button:hover{
+    background-color: #3e2f63;
+    color: #fff;
+  }
+  
+  #result {
+    margin-top: 16px;
+    font-weight: bold;
+    color: #3e2f63;
+    background-color: #fff;
+  }
